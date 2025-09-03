@@ -1,0 +1,15 @@
+[package]
+name = "rust-app"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]
+lto = true
+opt-level = "s"
+
+[dependencies]
+shield = { git = "https://github.com/r3dlight/shield"}
+#sentry-uapi = { git = "https://github.com/camelot-os/sentry-kernel/"}
+
+[build-dependencies]
+camelot_metadata =  {git = "https://github.com/camelot-os/sentry-package-metadata"}
