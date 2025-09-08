@@ -1,4 +1,5 @@
 // SPDX-FileCopyrightText: 2024 Ledger SAS
+// SPDX-FileCopyrightText: 2025 ANSSI
 //
 // SPDX-License-Identifier: Apache-2.0
 
@@ -8,10 +9,10 @@
 //extern crate shield;
 //use sentry_uapi::systypes::Status;
 //use sentry_uapi::*;
+use core::prelude::rust_2024::Ok;
 use shield::println;
 use shield::process::get_process_handle;
 use shield::Status;
-use core::prelude::rust_2024::Ok;
 //use shield::*;
 
 #[cfg(target_os = "none")]
